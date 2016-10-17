@@ -17,9 +17,9 @@
 	);
 
 
-	$to 	= $_REQUEST['to'];
-	$from   = $_REQUEST['from'];
-	$answer = $_REQUEST['body'];
+	// $to 	= $_REQUEST['to'];
+	// $from   = $_REQUEST['from'];
+	$answer = $_REQUEST['BODY'];
 	$reply  = array();
 
 	if (is_numeric($answer)) {
