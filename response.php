@@ -42,7 +42,7 @@
 ?>
 
 <Response>
-	<Message>
+	<Sms>
 			<?php
 				if(is_array($reply)){
 					foreach($reply as $key => $value){
@@ -53,5 +53,5 @@
 					echo $reply;
 				}
 			?>
-	</Message>
+	</Sms>
 </Response>
