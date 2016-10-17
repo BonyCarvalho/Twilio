@@ -48,7 +48,7 @@
 ?>
 
 <Response>
-	<MESSAGE>
+	<Message>
 		<Body>
 			<?php
 				if(is_array($reply)){
@@ -61,5 +61,5 @@
 				}
 			?>
 		</Body>
-	</MESSAGE>
+	</Message>
 </Response>
