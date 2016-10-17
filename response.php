@@ -3,11 +3,11 @@
     header("content-type: text/xml");
 
 	$easy 	= array(array("what is 1+1 ?",array("1","2","3","4")));
-	$medium = array(array("what is 2*2 ?",array("1","2","3","4")));
+	$medium = array(array("what is 2*2 ?",array("2","4","6","8")));
 	$hard 	= array(array("what is 2+(2*3) ?",array("4","8","12","16")));
 
 	$easyanswer   = 2;
-	$mediumanswer = 4;
+	$mediumanswer = 2;
 	$hardanswer   = 2;
 
     $quiz = array(
@@ -23,16 +23,11 @@
 	$reply  = array();
 
 	if (is_numeric($answer)) {
-		if($_SESSION[$from]){
-			if($_SESSION[$from] == $answer){
-				$reply = 'Correct Answer';
-			}
-			else{
-				$reply = 'Wrong Answer';
-			}
+		if($answer == 2){
+			$reply = 'Correct answer';
 		}
 		else{
-			//fail condition
+			$reply = 'Wrong answer';
 		}
 	}
 	else if(is_string($answer)){
@@ -41,7 +36,6 @@
 			array_push($reply, PHP_EOL);
 			array_push($reply, $value);
 		}
-    	$_SESSION[$from] = $answer;
 	}
 
     echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
