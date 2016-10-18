@@ -36,7 +36,7 @@
 		$_SESSION['value']++;
 	}
 	elseif (is_numeric($answer)) {
-		if(isset($_SESSION['value']) && $_SESSION['value'] <= 15){
+		if(isset($_SESSION['value']) && $_SESSION['value'] < 15){
 			$reply = printqt($_SESSION['value'],$question);
 			$_SESSION['value']++;
 		}
@@ -57,7 +57,7 @@
 		}
 		return $makereply;
 	}
-	
+
     echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 ?>
 
