@@ -36,13 +36,13 @@
 	print_r($_SESSION);
 
 	if(is_numeric($_SESSION[$from])){
-		$counter ++;
-		$_SESSION[$from] = $counter;
+		$_SESSION[$from] = $counter+1;
 	}
 	else{
 		$counter = 0;
 		$_SESSION[$from] = $counter;
 	}
+
 	print_r($_SESSION);
 	// $reply  = array();
 
