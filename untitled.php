@@ -22,7 +22,7 @@
 						13 => array("5-x= 3. x?","answer : 4 2x+8=4x -> 2x=8 -> x=4"),
 						14 => array("5-x= 3. x?","answer : 16 3x+2=5x-30 -> -2x=- 32 -> x=16"),
 
-						);
+					);
 	
 
 
@@ -35,7 +35,7 @@
 
 	print_r($_SESSION);
 
-	if(is_numeric($_SESSION[$from])){
+	if($_SESSION[$from]){
 		$_SESSION[$from] = $counter+1;
 	}
 	else{
