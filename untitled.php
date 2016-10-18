@@ -34,7 +34,7 @@
 	$answer = $_REQUEST['Body'];
 
 	if($from){
-		$_SESSION($from,$counter);
+		$_SESSION($from,$answer);
 	}
 	print_r($question);
 	// $reply  = array();
