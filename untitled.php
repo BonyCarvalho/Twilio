@@ -36,7 +36,7 @@
 	if($from){
 		$_SESSION($from,$answer);
 	}
-	print_r($question);
+	print_r($_SESSION);
 	// $reply  = array();
 
 	// if (is_numeric($answer)) {
