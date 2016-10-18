@@ -33,8 +33,15 @@
 	$from   = $_REQUEST['From'];
 	$answer = $_REQUEST['Body'];
 
-	if($from){
-		$_SESSION($from,$answer);
+	print_r($_SESSION);
+
+	if(is_numeric($_SESSION[$from])){
+		$counter ++;
+		$_SESSION[$from] = $counter;
+	}
+	else{
+		$counter = 0;
+		$_SESSION[$from] = $counter;
 	}
 	print_r($_SESSION);
 	// $reply  = array();
