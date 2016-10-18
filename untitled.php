@@ -36,7 +36,8 @@
 	print_r($_SESSION);
 
 	if(is_numeric($_SESSION[$from])){
-		$_SESSION[$from] = $counter+1;
+		$counter = $_SESSION[$from];
+		$_SESSION[$from] = $counter++;
 	}
 	else{
 		$counter = 0;
