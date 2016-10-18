@@ -35,10 +35,12 @@
 
 	print_r($_SESSION);
 
-	if($_SESSION[$from]){
+	if(is_numeric($_SESSION[$from])){
+		echo "sess exists";
 		$_SESSION[$from] = $counter+1;
 	}
 	else{
+		echo "sess new";
 		$counter = 0;
 		$_SESSION[$from] = $counter;
 	}
