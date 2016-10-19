@@ -30,7 +30,7 @@
 
 	$reply  = array();
 
-	if (strpos($answer, 'start') !== FALSE || strpos($answer, 'restart') !== FALSE) {
+	if (strpos($answer, 'start') !== FALSE || strpos($answer, 'restart') !== FALSE || strpos($answer, 'Start') !== FALSE || strpos($answer, 'START') !== FALSE || strpos($answer, 'Restart') !== FALSE || strpos($answer, 'RESTART') !== FALSE) {
 		$_SESSION['value']=0;
 		$reply = printqt(0,$question);
 		$_SESSION['value']++;
