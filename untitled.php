@@ -6,21 +6,21 @@
 
 	$question 	= array(
 
-						0  => array("x-7=3. x?","10".PHP_EOL." x=3+7 -> x=10"),
-						1  => array("5-x= 3. x?","2".PHP_EOL." –x=3-5 -> –x=-2 -> x=2"),
-						2  => array("4x=20. x?","5".PHP_EOL." x=20/4 ->  x=5"),
-						3  => array("2x+3x=30. x?","6".PHP_EOL." 5x=30 ->  x=30/5 -> x=6"),
-						4  => array("5x-98=- 2x. x?","14".PHP_EOL." 7x=98 ->  x=98/7 -> x=14"),
-						5  => array("100/z=-4. x?","-25".PHP_EOL." 100=-4z  -> 100/4=-z -> z=-25"),
-						6  => array("1-3x=- 14. x?","5".PHP_EOL." -3x=- 14-1 -> -3x=- 15 -> x=5"),
-						7  => array("x+(-8)=- 20. x?","-12".PHP_EOL." x-8=- 20 -> x=-20+8 -> x=-12"),
-						8  => array("5-x= 3. x?","-4".PHP_EOL." 8x-2=- 34 -> 8x=-32 -> x=-4"),
-						9  => array("5-x= 3. x?","5".PHP_EOL." 2x-6=4 -> 2x=10 -> x=5"),
-						10 => array("5-x= 3. x?","1.2".PHP_EOL." x=30-24x -> 25x=30 -> x=30/25 -> x=1.2"),
-						11 => array("5-x= 3. x?","15".PHP_EOL." x+5=20 -> x=15"),
-						12 => array("5-x= 3. x?","3.4".PHP_EOL." -14=- 10(x-2) -> 14=10x-20 -> 34=10x -> x=3.4"),
-						13 => array("5-x= 3. x?","4".PHP_EOL." 2x+8=4x -> 2x=8 -> x=4"),
-						14 => array("5-x= 3. x?","16".PHP_EOL." 3x+2=5x-30 -> -2x=- 32 -> x=16"),
+						0  => array("x-7=3. What is the value of x?","10".PHP_EOL." x=3+7 -> x=10"),
+						1  => array("5-x= 3. What is the value of x?","2".PHP_EOL." –x=3-5 -> –x=-2 -> x=2"),
+						2  => array("4x=20. What is the value of x?","5".PHP_EOL." x=20/4 ->  x=5"),
+						3  => array("2x+3x=30. What is the value of x?","6".PHP_EOL." 5x=30 ->  x=30/5 -> x=6"),
+						4  => array("5x-98=- 2x. What is the value of x?","14".PHP_EOL." 7x=98 ->  x=98/7 -> x=14"),
+						5  => array("100/z=-4. What is the value of x?","-25".PHP_EOL." 100=-4z  -> 100/4=-z -> z=-25"),
+						6  => array("1-3x=- 14. What is the value of x?","5".PHP_EOL." -3x=- 14-1 -> -3x=- 15 -> x=5"),
+						7  => array("x+(-8)=- 20. What is the value of x?","-12".PHP_EOL." x-8=- 20 -> x=-20+8 -> x=-12"),
+						8  => array("5-x= 3. What is the value of x?","-4".PHP_EOL." 8x-2=- 34 -> 8x=-32 -> x=-4"),
+						9  => array("5-x= 3. What is the value of x?","5".PHP_EOL." 2x-6=4 -> 2x=10 -> x=5"),
+						10 => array("5-x= 3. What is the value of x?","1.2".PHP_EOL." x=30-24x -> 25x=30 -> x=30/25 -> x=1.2"),
+						11 => array("5-x= 3. What is the value of x?","15".PHP_EOL." x+5=20 -> x=15"),
+						12 => array("5-x= 3. What is the value of x?","3.4".PHP_EOL." -14=- 10(x-2) -> 14=10x-20 -> 34=10x -> x=3.4"),
+						13 => array("5-x= 3. What is the value of x?","4".PHP_EOL." 2x+8=4x -> 2x=8 -> x=4"),
+						14 => array("5-x= 3. What is the value of x?","16".PHP_EOL." 3x+2=5x-30 -> -2x=- 32 -> x=16"),
 
 						);
 	
