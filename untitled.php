@@ -30,7 +30,9 @@
 
 	$reply  = array();
 
-	if (strpos($answer, 'start') !== FALSE || strpos($answer, 'restart') !== FALSE || strpos($answer, 'Start') !== FALSE || strpos($answer, 'START') !== FALSE || strpos($answer, 'Restart') !== FALSE || strpos($answer, 'RESTART') !== FALSE) {
+	$input = array('start','Start', 'START', 'restart', 'Restart', "RESTART");
+
+	if(in_array($answer, $input)) {
 		$_SESSION['value']=0;
 		$reply = printqt(0,$question);
 		$_SESSION['value']++;
@@ -43,6 +45,9 @@
 		else{
 			$reply = 'Thank you for playing with TYA, press start to play again';
 		}
+	}
+	else{
+		$reply = 'Invalid input, To begin with TYP type "start". ';
 	}
 
 
