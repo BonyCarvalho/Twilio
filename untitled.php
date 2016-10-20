@@ -47,7 +47,7 @@
 		}
 	}
 	else{
-		$reply = 'Invalid input, To begin with TYP type "start". ';
+		$reply = 'Invalid input, To begin with TYA type "start". ';
 	}
 
 
